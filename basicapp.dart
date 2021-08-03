@@ -34,7 +34,7 @@ class MyHomePageState extends State<MyHomePage>{
       body:Center(child :Text(_counter.toString()) ),
       floatingActionButton: FloatingActionButton(onPressed: (){
       incrementCounter();
-      }, child: Icon(Icons.add)
+      }, child: Icon(Icons.add),
          ),
       );
   }
