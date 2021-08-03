@@ -20,6 +20,22 @@ class MyHomePage extends StatefullWidget{
 }
 
 class MyHomePageState extends State<MyHomePage>{
+  int _counter = 0;
+  void incrementCounter(){
+    setState (() {
+      _counter++;
+    });
+  }
+    
   @override
-  widget build(BuildContext context)
+  widget build(BuildContext context){
+    return Scaffold(
+      appBar:AppBar(title:Text("Zeus app"),),
+      body:Center(child :Text(_counter.toString()) ),
+      floatingActionButton: FloatingActionButton(onPressed: (){
+      incrementCounter();
+      }, child: Icon(Icons.add)
+         ),
+      );
+  }
 }
