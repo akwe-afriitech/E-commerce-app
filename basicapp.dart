@@ -22,7 +22,7 @@ class MyHomePage extends StatefullWidget{
 
 
 class MyHomePageState extends State<MyHomePage>{
-  int _counter = 0;
+  int _counter = 2;
   void incrementCounter(){
     setState (() {
       _counter++;
