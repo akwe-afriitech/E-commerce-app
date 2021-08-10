@@ -8,8 +8,8 @@ class myApp extends StateLessWidget{
   @override
   Widget build(Buildcontext context){
     return MaterialApp(
-      title: "Zeus app" ,
-      theme: Themedata(primarySwatch: colors.blue),
+      title: "ZeusApp" ,
+      theme: Themedata(primarySwatch: colors.yellow),
       home: MyHomePage()
       );
     }
