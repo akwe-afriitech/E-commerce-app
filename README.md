@@ -1,2 +1,2 @@
 # flutterbasic-app
-building a basic flutter app
+building a flutter app
